@@ -85,7 +85,7 @@ Nest is [MIT licensed](LICENSE).
 
 1 - create a postgres database ex. "grannet".
 2 - import the fil 'data.sql' using the command.
-psql -U <user> <dbname> < data.sql.
+"psql -U <user> <dbname> < data.sql"
 
 ## launch the server
 
