@@ -71,3 +71,23 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+# How to run the API
+
+## API NestJs
+
+1 - Clone the repo
+2 - yarn install
+3 - create .env file with the same structure as .env.example
+
+# Note : the database should be created before the launch of the server
+
+## DB Postgres
+
+1 - create a postgres database ex. "grannet"
+2 - import the fil 'data.sql' using the command
+psql -U <user> <dbname> < data.sql
+
+launch the server
+
+- yarn start:dev to start the server
